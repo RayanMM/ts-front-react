@@ -1,0 +1,30 @@
+.dragAndDropContainer{
+    margin-top: 3.5em;
+    margin-left: 3.5em;
+    margin-bottom: 3em;
+    padding-top: 1em;
+    max-width: 90%;
+    min-height: 30em;
+    border-style: dashed;
+    background-color: #FFF;
+    border-radius: 0.5em;
+    text-align: center;
+}
+
+.dragAndDropContainerHover{
+    background-color: #DDD;
+    box-shadow: 0px 0px 6px 2px 
+}
+
+.dragAndDropText{
+    margin-top: 8em;
+}
+
+.loader{
+    height: 1.5em !important;
+}
+
+.progress.active .progress-bar, .progress-bar.active {
+    -webkit-animation: progress-bar-stripes 0.3s linear infinite !important;
+    animation: progress-bar-stripes 0.3s linear infinite !important;
+}

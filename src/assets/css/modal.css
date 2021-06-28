@@ -1,0 +1,53 @@
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: none !important;
+    }
+}
+
+.customExtraLarge{
+    width: 97%;
+    min-height: 100vh;
+}
+
+.customLarge{
+    width: 80%;
+}
+
+.customMedium{
+    width: 70%;
+}
+
+.customSmall{
+    width: 50%;
+}
+
+.customExtraSmall{
+    width: 25%;
+}
+
+.modal-closebtn{
+    color: #000;
+    background-color: #FFF;
+    font-weight: bold;
+    border-radius: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    margin: 0 auto;
+    width: 35px;
+    height: 35px;
+    float: right;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+.modal-closebtn:hover{
+    color: #FFF;
+    background-color: #FE0002;
+}
+
+.closeIcon{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    -webkit-transform: translateY(-50%);
+}

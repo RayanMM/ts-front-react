@@ -1,0 +1,35 @@
+.body-svg{
+    width: auto;
+    height: auto;
+}
+
+.bodyMain{
+    enable-background:new 0 0 1080 1080;
+}
+
+.st0{
+    fill:#FFFFFF;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+.st0:hover{
+    fill:#3777ff;
+    cursor: pointer;
+}
+
+.st0.selected{
+    fill:#2B2D3B;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}
+
+.st0.selected:hover{
+    fill:#3777ff;
+}
+
+.st1{
+    fill:none;
+    stroke:#000000;
+    stroke-miterlimit:10;
+}

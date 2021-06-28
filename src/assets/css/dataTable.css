@@ -1,0 +1,56 @@
+.getmaxHeight{
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: auto;
+    max-height: 60vh;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+.hideIt{
+    display: none;
+}
+
+.showIt{
+    display: table-row;
+}
+
+.datatable.navbar{
+    padding: 0 !important;
+}
+
+.datatable.navbar.navbar-default{
+    background-color: #12AFD0 !important;
+}
+
+.datatable.nav{
+    margin-bottom: 0 !important;
+}
+
+.datatablehover:hover{
+    background-color: #DDD !important; 
+}
+
+.centered-datatable{    
+    display: flex;
+    justify-content: center;
+}

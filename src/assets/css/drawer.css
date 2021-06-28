@@ -1,0 +1,117 @@
+.drawer {
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    z-index: 1050;
+    top: 0;
+    background-color: #2B2D3B;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: all 0.3s;
+    text-align: left !important;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2);
+}
+
+.drawer.secondary{
+    background-color: #ddd;
+}
+
+.sidebar > div.left{
+    left:280px;
+}
+
+.sidebar.active > div.left{
+    left: 80px;
+}
+
+.drawer.right{
+    right: 0px;
+}
+  
+.drawer.closeDrawer{
+    width: 0px;
+}
+
+.drawer.openDrawer{
+    width: 300px;
+}
+
+.drawer div.item {
+    padding: 2px 2px 2px 2px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #8b939b;
+    display: block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.drawer div.item:hover i{
+    color: #3777ff;
+}
+.drawer div.item:hover{
+   color: #FFF;
+}
+
+.drawer div.item i {
+    margin-right: 10px;
+}
+    
+.drawer .closebtn {
+    position: absolute;
+    top: -1px;
+    font-size: 36px;
+    cursor: pointer;
+    color: #606060;
+    transition: all 800ms ease-in-out;
+}
+
+.drawer .closebtn.right{
+    right: 5px;
+}
+
+.drawer .closebtn.left{
+    left: 5px;
+}
+
+.drawer .closebtn:hover {
+    color: #3777ff;
+}
+
+.drawerToggleButton{
+    z-index: 1040;
+    font-size: 30px;
+    top: 60px;
+    color:#606060;
+    background-color: #FFF;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 25px;
+    height: 70px;
+    float: right;
+    cursor: pointer;
+}
+
+.drawerToggleButton.right{
+    position: absolute;
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.drawerToggleButton.left{
+    position: absolute;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.drawerToggleButton .icon{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); 
+    -webkit-transform: translateY(-50%);
+}
+
+@media screen and (max-height: 450px) {
+    .drawer {padding-top: 15px;}
+    .drawer div.item {font-size: 18px;}
+}

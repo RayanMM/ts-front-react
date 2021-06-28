@@ -1,0 +1,36 @@
+.sub-header{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    padding:20px 0;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.56);
+    background: #517491;
+    border-radius: 3px;
+    color: #FFF;
+}
+
+@media only screen and (max-width: 1920px) {
+    .sub-header{
+        font-size: 2.7rem !important;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .sub-header{
+        font-size: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sub-header{
+        font-size: 1.5rem !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .sub-header{
+        font-size: 1rem !important;
+    }
+}

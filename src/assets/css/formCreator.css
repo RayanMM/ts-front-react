@@ -1,0 +1,48 @@
+.component-item{
+  cursor: grab;
+}
+
+.editing{
+    min-height: 30px;
+    border: 2px dotted #DDD;
+    padding: 20px;
+    transition: ease-in 200ms;
+  }
+  
+  .editing.black{
+    border-color: #DDD;
+  }
+  
+  .editing.blue{
+    border-color: blue;
+  }
+  
+  .editing.red{
+    border-color: red;
+  }
+
+  .editing.false{
+      border-color: #FFF;
+      padding: 0;
+      transition: ease-out 200ms;
+  }
+
+.remove-area{
+  border-color: #DF2935;
+  color: #DF2935;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.remove-icon{
+  position: relative;
+  text-align: center;
+}
+
+.draggingOver{
+  background-color: #C3C3C3;
+}
+
+.hideIt{
+  display: none;
+}

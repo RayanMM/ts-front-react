@@ -1,0 +1,22 @@
+.orderDesc{
+    border-bottom: 2px solid black !important;
+}
+
+.orderAsc{
+    border-top: 2px solid black !important;
+}
+
+.excel:hover{
+    color: green;
+    cursor: pointer;
+}
+
+.pdf:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.chart:hover{
+    color: blue;
+    cursor: pointer;
+}
